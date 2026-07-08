@@ -1,0 +1,11 @@
+.dashboard-title{
+    color:#293a56;
+    margin-bottom:25px;
+}
+
+.dashboard-bottom{
+    display:flex;
+    gap:20px;
+    margin-top:40px;
+    align-items:flex-start;
+}

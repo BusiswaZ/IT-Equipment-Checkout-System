@@ -1,0 +1,56 @@
+.recent-activity {
+    
+    flex: 2;
+    margin-top: 40px;
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+
+}
+
+.recent-activity h2 {
+
+    margin-bottom: 20px;
+
+    color: #1E293B;
+
+}
+
+.activity-card {
+
+    padding: 15px 0;
+
+    border-bottom: 1px solid #E2E8F0;
+
+}
+
+.activity-card:last-child {
+
+    border-bottom: none;
+
+}
+
+.activity-card h4 {
+
+    color: #1E293B;
+
+}
+
+.activity-card p {
+
+    color: #64748B;
+
+    margin: 5px 0;
+
+}
+
+.activity-card small {
+
+    color: #94A3B8;
+
+}

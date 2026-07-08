@@ -15,20 +15,28 @@ import AddEquipment from "./pages/AddEquipment";
 function App() {
  
   return (
-    <BrowserRouter>
-    <TopNavbar />
-    <Sidebar />
-    <Routes>
-      <Route path="/" element={<Dashboard />} />
-      <Route path="/equipment" element={<Equipment />} />
-      <Route path="/add" element={<AddEquipment />} />
-      <Route path="/assign" element={<AssignEquipment />} />
-      <Route path="/return" element={<ReturnEquipment />} />
-      <Route path="/history" element={<History />} />
-    </Routes>
+  <BrowserRouter>
+     <div className="App">
+      <TopNavbar />
+      <div className="content">
+
+       <Sidebar />
+
+        <main className="main-content">
+         <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/equipment" element={<Equipment />} />
+          <Route path="/add" element={<AddEquipment />} />
+          <Route path="/assign" element={<AssignEquipment />} />
+          <Route path="/return" element={<ReturnEquipment />} />
+          <Route path="/history" element={<History />} />
+         </Routes>
+        </main>
+      </div>
+    </div>
     
     
-    </BrowserRouter>
+   </BrowserRouter>
   );
   
 

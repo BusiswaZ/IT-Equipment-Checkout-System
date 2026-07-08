@@ -1,0 +1,40 @@
+/* ===========================
+   Sidebar
+=========================== */
+
+aside {
+    width: 240px;
+    background-color: #1E3A8A;
+    color: white;
+    padding: 20px;
+}
+
+/* Navigation */
+
+nav ul {
+    list-style: none;
+}
+
+/* Navigation Items */
+
+nav li {
+    padding: 15px 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect */
+
+nav li:hover {
+    background-color: #3B82F6;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+nav a.active {
+    background-color: #3f7bdc;
+    border-radius: 8px;
+}
