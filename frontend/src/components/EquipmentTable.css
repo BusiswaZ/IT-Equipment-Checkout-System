@@ -1,0 +1,56 @@
+.equipment-table {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+    overflow-x: auto;
+}
+
+.equipment-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.equipment-table th {
+    text-align: left;
+    background: #F8FAFC;
+    color: #1E293B;
+    padding: 14px;
+    border-bottom: 2px solid #E2E8F0;
+}
+
+.equipment-table td {
+    padding: 14px;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.equipment-table tr:hover {
+    background: #F8FAFC;
+}
+.status{
+
+    padding:6px 12px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.available{
+
+    background:#DCFCE7;
+
+    color:#15803D;
+
+}
+
+.issued{
+
+    background:#DBEAFE;
+
+    color:#1D4ED8;
+
+}
