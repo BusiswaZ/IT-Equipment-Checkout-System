@@ -1,10 +1,9 @@
 import { useState } from "react";
 import SearchBar from "../components/SearchBar";
 import EquipmentTable from "../components/EquipmentTable";
-import equipment from "../data/equipmentData";
 import "./Equipment.css";
 
-function Equipment() {
+function Equipment({ equipment }) {
 
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCategory, setSelectedCategory] = useState("All Categories");

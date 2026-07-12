@@ -1,7 +1,14 @@
-function AddEquipment() {
-  return 
+import EquipmentForm from "../components/EquipmentForm";
 
-      <h1>Add Equipment</h1>;
+function AddEquipment({ equipment,setEquipment, }) {
+  return (
+    <div>
+      <h1>Add New Equipment</h1>
+
+     <EquipmentForm equipment={equipment} setEquipment={setEquipment}
+     />
+    </div>
+  );
 }
 
 export default AddEquipment;

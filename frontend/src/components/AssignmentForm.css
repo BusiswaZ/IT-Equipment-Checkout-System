@@ -1,0 +1,90 @@
+.equipment-form {
+  max-width: 650px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,.08);
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.equipment-form label {
+  font-weight: 600;
+  color: #1E293B;
+  text-align: left;
+}
+
+.equipment-form input,
+.equipment-form select {
+
+  padding: 12px;
+
+  border: 1px solid #CBD5E1;
+
+  border-radius: 8px;
+
+  font-size: 15px;
+
+  outline: none;
+
+}
+
+.equipment-form input:focus,
+.equipment-form select:focus {
+
+  border-color: #2563EB;
+
+}
+
+.form-buttons{
+
+    display:flex;
+
+    justify-content:flex-end;
+
+    gap:15px;
+
+    margin-top:15px;
+
+}
+
+.cancel-btn{
+
+    background:white;
+
+    color:#1E3A8A;
+
+    border:1px solid #1E3A8A;
+
+    padding:10px 18px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.save-btn{
+
+    background:#2563EB;
+
+    color:white;
+
+    border:none;
+
+    padding:10px 18px;
+
+    border-radius:8px;
+
+    cursor:pointer;
+
+}
+
+.save-btn:hover{
+
+    background:#1D4ED8;
+
+}

@@ -1,7 +1,7 @@
 import "./SummaryCards.css";
-import equipment from "../data/equipmentData";
 
-function SummaryCards() {
+
+function SummaryCards({ equipment }) {
 
   const totalEquipment = equipment.length;
 

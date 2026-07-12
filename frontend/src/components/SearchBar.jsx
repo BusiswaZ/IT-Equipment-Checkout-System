@@ -28,15 +28,14 @@ function SearchBar({
 
              {categories.map((category) => (
 
-             <option
-             key={category}
-             value={category}
-             >
-            {category}
-            </option>
+            <option
+               key={category}
+               value={category}
+          >
+               {category}
+             </option>
 
-          ))}
-
+         ))}
             </select>
 
             <select
